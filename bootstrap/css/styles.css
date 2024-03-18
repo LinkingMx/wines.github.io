@@ -1,0 +1,38 @@
+body {
+    background-image: url('../images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blur-effect {
+    filter: blur(8px); /* Ajusta el nivel de desenfoque según prefieras */
+  }
+
+  .mi-clase-personalizada {
+    /* Asegúrate de que el modal se ajuste al 90% de la altura de la pantalla */
+    max-height: 90vh;
+    height: 90vh;
+    overflow-y: auto;
+    max-width: 70vw;
+    width: 70vw;
+  }
+  
+  .mi-clase-personalizada .modal-content {
+    height: 100%;
+    width: 100%;
+  }
+
